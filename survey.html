@@ -6,6 +6,120 @@
         <link rel="stylesheet" href="survey.css">
         <body>
     </head>
-        <h1 id="title" class="title">Survey Form</h1>
+        <main>
+            <h1 id="title" class="title">UCI Experience Form</h1>
+            <p id="description">
+                This is a generic survey for UCI college students.
+            </p>
+            <form action="#" id="survey-form">
+                <fieldset>
+                    <legend>Enter your full name</legend>
+                    <label for="name-label" id="name-label">Name: </label><input type="text" required id="name" placeholder="Your name goes here"/></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Enter a valid email address </legend>
+                    <label for="email-label" id="email-label">Email: <input required id="email" type="email" placeholder="Your email goes here"/></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Enter your age</legend>
+                    <label for="number-label" id="number-label">Age: <input id="number" required type="number" min="18" max="23" placeholder="Your age goes here"/></label>
+                </fieldset>
+                <fieldset>
+                    <legend>What is your major?</legend>
+                    <select id="dropdown">
+                        <option value="">
+                            Majors
+                        </option>
+                        <option value="1">
+                            Psychology
+                        </option>
+                        <option value="2">
+                            Computer Science
+                        </option>
+                        <option value="3">
+                            Communications
+                        </option>
+                        <option value="4">
+                            History
+                        </option>
+                        <option value="5">
+                            Anthropology
+                        </option>
+                        <option value="6">
+                            Mechanical Engineering
+                        </option>
+                        <option value="7">
+                            Philosophy
+                        </option>
+                        <option value="8">
+                            Biology
+                        </option>
+                        <option value="9">
+                            Chemistry
+                        </option>
+                        <option value="10">
+                            Accounting
+                        </option>
+                        <option value="11">
+                            Nursing
+                        </option>
+                        <option value="12">
+                            Physics
+                        </option>
+                        <option value="13">
+                            Political Science
+                        </option>
+                        <option value="14">
+                            Philosophy
+                        </option>
+                        <option value="15">
+                            Math
+                        </option>
+                        <option value="16">
+                            Education
+                        </option>
+                        <option value="17">
+                            English
+                        </option>
+                        <option value="18">
+                            Criminal Justice
+                        </option>
+                        <option value="19">
+                            Other
+                        </option>
+                    </select>
+                </fieldset>
+                <fieldset style="margin-bottom: -11rem;">
+                    <legend>Select what year you're from</legend>
+                    <label><input type="radio" value="freshmen" name="year"/>Freshmen</label>
+                    <label><input type="radio" value="sophomore" name="year"/>Sophomore</label>
+                    <label><input type="radio" value="junior" name="year"/>Junior</label>
+                    <label><input type="radio" value="senior" name="year"/>Senior</label>
+                </fieldset>
+                <fieldset style="height: 10rem;">
+                    <legend class="identification">
+                        Check off what you identify with
+
+                        <label for="identity"><input type="checkbox" value="male"/> Male</label>
+                        <label for="identity"><input type="checkbox" value="female"/> Female</label>
+                        <label for="identity"><input type="checkbox" value="non-binary"/> Non-Binary</label>
+                        <label for="identity"><input type="checkbox" value="heterosexual"/> Heterosexual</label>
+                        <label for="identity"><input type="checkbox" value="bisexual"/> Bisexual</label>
+                        <label for="identity"><input type="checkbox" value="hispanic/latin"/> Hispanic/Latin</label>
+                        <label for="identity"><input type="checkbox" value="asian"/> Asian</label>
+                        <label for="identity"><input type="checkbox" value="caucasion"/> Caucasion</label>
+                        <label for="identity"><input type="checkbox" value="black"/> Black</label>
+                     
+                    </legend>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Enter any comments about UCI
+                    </legend>
+                    <textarea placeholder="Enter your comments here"></textarea>
+                </fieldset>
+                <input type="submit" class="submit" id="submit">
+            </form>
+        </main>
     </body>
 </html>

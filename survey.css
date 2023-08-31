@@ -1,4 +1,31 @@
+body{
+    background-color: grey;
+}
+
+main{
+    max-width: 40rem;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+}
+
 .title {
     margin: 0 auto;
     text-align: center;
+}
+
+fieldset{
+    margin: 10px 15px;
+}
+
+input[type="number"]{
+    width: 180px;
+}
+
+.identification label{
+    display: block;
+}
+
+.identification{
+    padding-top: 11rem;
 }
