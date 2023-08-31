@@ -1,7 +1,7 @@
 # SurveyForm
 <!DOCTYPE html>
 <html>
-  <head>
+  <head lang="en">
     <meta charset="utf-8">
   </head>
   <body>
