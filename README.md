@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>College Survey</title>
     <meta charset="utf-8">
   </head>
   <body>
+    <h1>College Survey</h1>
     <p>Creating a survey form that asks generic survey questions toward college students. Just a fun project through an online coding resource.</p>
     <ul>
       <li>
