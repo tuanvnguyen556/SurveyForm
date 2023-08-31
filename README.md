@@ -9,7 +9,7 @@
     <p>Creating a survey form that asks generic survey questions toward college students. Just a fun project through an online coding resource. &#128175;</p>
     <ul>
       <li>
-        types: radio and text
+        types: radio, text, checkbox
       </li>
       <li>
         select with option elements
@@ -19,6 +19,9 @@
       </li>
       <li>
         label with attribute for and input id
+      </li>
+      <li>
+        forms with fieldset
       </li>
     </ul>
   </body>
